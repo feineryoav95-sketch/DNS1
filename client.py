@@ -1,4 +1,5 @@
 import socket
+
 def getIP():
     """
     param:none

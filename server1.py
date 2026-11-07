@@ -1,5 +1,6 @@
 import socket
 
+
 def interact_with_server2(msg,data):
     try:
         server2_soc.send(str(len(msg)).zfill(3).encode())
